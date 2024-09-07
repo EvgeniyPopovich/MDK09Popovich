@@ -1,0 +1,20 @@
+.UserBox {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.UserBox button{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color:  #dab03e;
+}
+@media screen and (max-width: 650px) {
+    .UserBox{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}

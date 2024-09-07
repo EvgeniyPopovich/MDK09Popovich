@@ -1,0 +1,45 @@
+.About{
+    width: 100%;
+    min-height: calc(100vh - 50px - 50px);
+    background-color: #fff;
+    /* display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 30px;
+    */
+}
+.About h2{
+    padding: 20px;
+}
+.About h3{
+    padding: 10px;
+}
+.About img{
+    width: 200px;
+    height: 240px;
+}
+.About p{
+    padding: 20px;
+}
+.About h1{
+    padding: 20px;
+}
+.About ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 30px;
+}
+.About li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   @media screen and (max-width: 1250px) {
+    .About ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        padding: 10px;
+    }
+  }
+  
